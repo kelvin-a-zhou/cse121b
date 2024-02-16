@@ -50,13 +50,13 @@ myProfile.hobbies.forEach(function(hobby){         //repeat until the end of lis
 
 /* Places Lived DataList */
 
-myProfile.placesLived.forEach(function(placeLived){         //repeat until the end of list of favourite foods
-    let dt = document.createElement("dt");        // create new list item (going to be empty) <li> </li>
-    dt.textContent = placeLived.place;                        // adding each hobby to the Li item.
+myProfile.placesLived.forEach(function(placeLived){         
+    let dt = document.createElement("dt");        
+    dt.textContent = placeLived.place;                       
 
-    let dd = document.createElement("dd");        // create new list item (going to be empty) <li> </li>
+    let dd = document.createElement("dd");        
     dd.textContent = placeLived.length; 
 
-    document.querySelector("#places-lived").append(dt);               // <ul> <li> food 1</li> <li> food2</li> <li> </li> </ul>
+    document.querySelector("#places-lived").append(dt);              
     document.querySelector("#places-lived").append(dd);
 })
