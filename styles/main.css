@@ -1,3 +1,63 @@
+/* Project page styling Start */
+.body{
+    background-color: lightseagreen ;
+    width: 100%;
+}
+
+.main{
+    background-color: lightseagreen ;
+    height: 500px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#projectH1{
+    color: black;
+    
+}
+
+.main article {
+    height: fit-content;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px #777;
+    margin-top: 15%;
+}
+
+#cityName{
+    margin-top: 3%;
+    display: inline;
+    width: 30%;   
+    margin-right: 5%;
+
+}
+
+#weatherButton{
+    height: 30px;
+    width: 17%;
+    background-color: #444444;
+    color: white;
+    padding: 1%;
+}
+
+#weatherButton:hover {
+    background-color: turquoise;
+    color: black;
+}
+
+#weatherInfo{
+    margin-top: 3%;
+}
+
+
+/* Project page styling  End*/
+
+
 /* Universal Selector */
 * {
     margin: 0;
